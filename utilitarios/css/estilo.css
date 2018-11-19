@@ -1,0 +1,325 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 30-nov-2015, 14:03:33
+    Author     : AnibaL
+*/
+/*---------------------------
+SOCIAL ICON STYLE
+-----------------------------*/
+.footer-wrapper {
+    background : #00c0ff;
+    padding    : 60px 0;
+    }
+
+.footer-contact {
+    font-size      : 20px;
+    color          : #fff;
+    }
+
+.footer-contact span {
+    margin-right : 30px;
+    }
+
+.footer-contact span a {
+    color : #252627;
+    }
+
+.less-margin-top {
+    margin-top : 0px
+    }
+
+.footer-bottom {
+    padding-top : 15px;
+    border-top  : 1px solid #fff;
+}
+
+.copyright-text {
+    color       : #fff;
+    font-size   : 15px;
+    line-height : 21px;
+}
+.social-icon {
+    text-align : left;
+}
+
+.social-icon ul li {
+    margin-right : 5px;
+    padding      : 0;
+    display      : inline-block;
+
+}
+
+.social-icon ul li:last-child {
+    margin-right : 0;
+
+}
+
+.social-icon ul li a {
+    height  : 24px;
+    display : block;
+}
+
+/* --------------------
+footer social icon
+-----------------------*/
+
+.footer-wrapper .social-icon i.fa {
+    border-color : #fff;
+    color        : #fff;
+}
+
+/*  Animated CSS
+  -----------------------*/
+
+.customNavigation i.fa {
+    width       : 40px;
+    height      : 40px;
+    line-height : 24px;
+}
+
+.icustomNavigation i.fa::before {
+    font-size   : 14px;
+    line-height : 24px;
+}
+
+.social-icon i.fa {
+    width  : 40px;
+    height : 40px;
+    border : 1px solid #D1D1D1;
+}
+
+.social-icon i.fa::before {
+    font-size   : 20px;
+    line-height : 40px;
+}
+
+.social-icon i.fa, .customNavigation i.fa {
+    display            : inline-block;
+    cursor             : pointer;
+    margin             : 0px;
+    text-align         : center;
+    position           : relative;
+    z-index            : 1;
+    color              : #CACAC9;
+    overflow           : hidden;
+    border-radius      : 25px;
+    -webkit-transition : all 0.5s;
+    -moz-transition    : all 0.5s;
+    transition         : all 0.5s;
+}
+
+.social-icon i.fa::before, .customNavigation i.fa::before, .services-box span i.fa::before {
+    border-radius               : 2px;
+    speak                       : none;
+    display                     : block;
+    -webkit-font-smoothing      : subpixel-antialiased !important;
+    -webkit-backface-visibility : hidden;
+    -moz-backface-visibility    : hidden;
+    -ms-backface-visibility     : hidden;
+}
+
+.social-icon i.fa::after, .customNavigation i.fa::after, .services-box span i.fa::after {
+    pointer-events : none;
+    position       : absolute;
+    width          : 100%;
+    height         : 100%;
+    content        : '';
+    display        : none;
+    box-sizing     : content-box;
+}
+
+.social-icon i.fa:hover, .customNavigation i.fa:hover {
+    background   : #9ED154;
+    color        : #FFFFFF;
+    line-height  : 20px;
+    border-color : #9ED154;
+}
+
+.social-icon i.fa:hover::before, .customNavigation i.fa:hover::before, .services-box span i.fa:hover::before {
+    -webkit-animation : toRightFromLeft 0.3s forwards;
+    -moz-animation    : toRightFromLeft 0.3s forwards;
+    animation         : toRightFromLeft 0.3s forwards;
+}
+
+.customNavigation i.fa:before, .social-icon i.fa:before, .services-box span i.fa:before {
+    -webkit-animation : toLeftFromRight 0.3s forwards;
+    -moz-animation    : toLeftFromRight 0.3s forwards;
+    animation         : toLeftFromRight 0.3s forwards;
+}
+
+.customNavigation i.fa {
+    display            : inline-block;
+    cursor             : pointer;
+    margin             : 0px;
+    text-align         : center;
+    position           : relative;
+    z-index            : 1;
+    color              : #6E6F6F;
+    overflow           : hidden;
+    -webkit-transition : all 0.5s;
+    -moz-transition    : all 0.5s;
+    transition         : all 0.5s;
+    background         : #FFFFFF;
+    border-radius      : 50%;
+    line-height        : 20px;
+    font-size          : 15px;
+    width              : 20px;
+    height             : 20px;
+}
+
+.services-box span.icon {
+    position           : absolute;
+    left               : 0;
+    top                : 5px;
+    font-size          : 30px;
+    background         : #9ED154;
+    height             : 80px;
+    width              : 80px;
+    text-align         : center;
+    color              : #FFFFFF;
+    line-height        : 80px;
+    display            : inline-block;
+    cursor             : pointer;
+    z-index            : 1;
+    overflow           : hidden;
+    border-radius      : 1px;
+    -webkit-transition : all 0.5s;
+    -moz-transition    : all 0.5s;
+    transition         : all 0.5s;
+    -webkit-transform  : translateZ(0);
+}
+
+.services-box span.icon:hover {
+    background   : #2D2D2D;
+    border-color : #9ED154;
+    color        : #FFFFFF;
+    cursor       : pointer;
+}
+
+
+.tam_letra {
+    font-size: 22px;
+}
+.tam_num {
+    font-size: 23px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #337ab7;
+}
+.panel-green > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #5cb85c;
+}
+.panel-green > .panel-heading .badge {
+    color: #337ab7;
+    background-color: #fff;
+}
+.panel-green > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+
+.panel-red {
+    border-color: #d9534f !important;
+}
+.panel-red > .panel-heading {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d9534f !important;
+}
+.panel-red > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #d9534f;
+}
+.panel-red > .panel-heading .badge {
+    color: #d9534f;
+    background-color: #fff;
+}
+.panel-red > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #d9534f;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e !important;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e !important;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+.top {
+  padding: 2px 0;
+  color:#fff;
+}
+
+.top__left h1 {
+  font-size: 11px;
+  font-weight: normal;
+  padding: 5px 0 0 15px;
+}
+
+.top__right {
+  font-size: 20px;
+  color:#fff;
+  line-height: 20px;
+  margin-top: 25px;
+  padding-bottom : 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .top__right {
+    text-align: center;
+    font-size: 30px !important;
+   }
+}
+@media screen and (min-width: 750px) {   
+   .top__right p {
+    font-size: 30px !important;
+   }
+}
+
+
+.top__right span {
+  padding: 0 6px;
+}
+
+.top__right i {
+  font-size: 20px;
+}
+
+.page-header {
+    margin: 20px 0 !important;
+}

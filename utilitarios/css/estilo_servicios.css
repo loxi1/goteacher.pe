@@ -1,0 +1,98 @@
+.color_serv{background-color: #00c0ff !important;padding: 15px !important; margin-bottom: 20px;}
+.style_ol{margin-bottom: 4px !important;}
+
+.breadcrumb {
+    padding: 0px;
+    background: #fff !important;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 32px 15px !important;
+}
+.breadcrumb>li+li:before {
+    padding: 0;
+}
+.breadcrumb li {
+    float: left;
+}
+.breadcrumb li.active a {
+    background: brown;                   /* fallback color */
+    background: #ffc107;
+}
+.breadcrumb li.stop a {                   /* fallback color */
+    background: ##0071bd ;
+}
+.breadcrumb li.completed a {
+    background: #00c0ff;                   /* fallback color */
+    background: hsla(195, 100%, 50%);
+}
+
+.breadcrumb li.active a:after {
+    border-left: 30px solid #ffc107 ;
+}
+.breadcrumb li.completed a:after {
+    border-left: 30px solid #00c0ff !important;
+}
+
+.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 30px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.breadcrumb li a.escolar{padding-left: 15px !important;}
+.breadcrumb li a:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid hsla(0, 0%, 83%, 1);
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+}
+.breadcrumb li a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+}
+.breadcrumb li:first-child a {
+    padding-left: 10px;
+}
+.style_chek_color{background-color: #eee;}
+.style_chek_border{border-right: #fff solid 5px;}
+        .iframe-container {    
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.in .modal-dialog {
+  transform: none; /*translate(0px, 0px);*/
+}

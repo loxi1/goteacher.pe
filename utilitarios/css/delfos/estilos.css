@@ -1,0 +1,529 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+body {
+	background:#fffffa;
+	}
+header {
+	width:100%;
+	overflow:hidden;
+	background:rgb(255,0,0);
+	margin-bottom:20px;
+	}
+
+.wrapper {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+	}
+header .logo {
+	line-height:200px;
+	float:left;
+	position:relative;
+	}
+ header img {
+	position:absolute;
+	top:50px;
+	}
+header nav{
+	float:right;
+	line-height:200px;
+	overflow:hidden;
+	}
+header nav a {
+	display:inline-block;
+	color:rgb(255,255,255);
+	text-decoration:none;
+	font-size:20px;
+	padding:10px 30px;
+	line-height:normal;
+	font-weight:bold;
+	-webkit-transition:all 600ms ease;
+	-o-transition:all 600ms ease;
+	transition:all 600ms ease;
+	}
+header nav a:hover {
+	background:#1098af;
+	border-radius:50px;
+	}
+	
+.header2 {
+	float: left;
+	position:fixed;
+	height:100px;
+	overflow: hidden;
+	}
+.header2 .logo {
+	line-height:100px;
+	float:left;
+	position:relative;
+	}
+.header2 img {
+	position:absolute;
+	top:12px;
+	clear:both;
+	}
+.header2 nav{
+	line-height:100px;
+	font-size:12px;
+	}
+/*SLIDES*/
+
+ .main {
+	 width:90%;
+	 max-width:1000px;
+	 margin:20px auto;
+	 clear: both;
+	 }
+ .slides {
+	 width:100%;
+	 /*overflow:hidden;*/
+	 }
+.slides img {
+	width:100%;
+	}
+.slidesjs-pagination {
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+	}
+.slidesjs-pagination li {
+	float:left;
+	}
+.slidesjs-pagination li a{
+	display:block;
+	padding:10px 20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+.slidesjs-pagination li a:hover{
+	background:#000000;
+	}
+.slides .active{
+	background:#000000;
+	}
+.slidesjs-navigation {
+	background:#000000;
+	color:#FFFFFF;
+	text-decoration:none;
+	display:inline-block;
+	padding:10px 20px;
+	float:right;
+	}
+	/*OFRECEMOS*/
+	.ofrecemosI {
+	width: 100%;
+	height: 160px;
+	border-radius: 10px;
+	margin: 10px auto;
+	box-shadow: 0px 1px 0px 0px #1976d2;
+		-moz-box-shadow: 0px 1px 0px 0px #1976d2;
+		-webkit-box-shadow: 0px 1px 2px 0px #1976d2;
+	}
+	#Pers {
+	background-color: #ffa000;
+	}
+	#Group {
+	background-color: #ffa000;
+	}
+	.PI {
+	width: 45%;
+	height: 80px;
+	float: left;
+	margin: 10px 19px;
+	}
+	.GI {
+	width: 45%;
+	height: 80px;
+	float: left;
+	margin: 10px 19px;
+	}
+
+	/*CURSOS*/
+
+.servicios {
+	background: #fffffa;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px 0px #000;
+		-moz-box-shadow: 0px 2px 2px 0px #000;
+		-webkit-box-shadow: 0px 2px 2px 0px #000;
+}
+.cursos{
+	background:#E91E63;
+	box-shadow: 0px 2px 2px 0px #000;
+		-moz-box-shadow: 0px 2px 2px 0px #000;
+		-webkit-box-shadow: 0px 2px 2px 0px #000;
+}
+.cursos .t0 a{
+	display: block;
+	font-size: 20px;
+	margin: auto;
+	padding: 10px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.contenidocursos {
+	display: block;
+	float: left;
+}
+.escolar {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	background: #ffa000;
+} 
+.te {
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 5px;
+}
+.te a{ 
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	font-weight:bold;
+}
+.cursosescolares {
+	text-decoration: none;
+	list-style: none;
+	background:#ffa000;
+	margin: 5px 20px;
+}
+.cursosescolares ul,li {
+	text-decoration: none;
+	list-style: none;
+}
+.preuniversitario {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	background: #ff5252;
+}
+.tp{
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 5px;
+}
+.tp a{ 
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	font-weight:bold;
+}
+.cursospreuniversitarios {
+	text-decoration: none;
+	list-style: none;
+	background:#ff5252;
+	margin: 5px 5px;	
+}
+.cursospreuniversitarios ul, li{
+	text-decoration: none;
+	list-style: none;
+}
+.universitario {
+	width: 200px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	padding: 10px 25px;
+	border-radius: 20px;
+	background: #ffa000;
+}
+.tu{
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 5px;
+}
+.tu a{ 
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	font-weight:bold;
+}
+.cursosuniversitarios {
+	text-decoration: none;
+	list-style: none;
+	background:#ffa000;	
+	margin: 5px 10px;
+}
+.cursospreuniversitarios ul, li{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+/*Footer*/
+.redes {
+	width: 100%;
+	height: 40px;
+	background: #1976d2;
+	border-radius: 20px;
+
+}
+
+.redes .rs p {
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*syllabus*/
+.syllabus {
+	width: 100%;
+	text-align: center;
+	background: #ff5252;
+	margin:20px auto;
+	border-radius: 10px 10px 0px 0px;
+}
+.syllabus a {
+	color: #fff;
+	font-size: 20px;
+}
+.cursoscep {
+	width: 100%;
+	height: 210px;
+	border-radius: 10px;
+	margin: 20px auto;
+	box-shadow: 0px 1px 0px 0px #1976d2;
+		-moz-box-shadow: 0px 1px 0px 0px #1976d2;
+		-webkit-box-shadow: 0px 1px 2px 0px #1976d2;
+
+}
+.preI {
+	width: 10%;
+	height: 150px;
+	float: left;
+	margin: 10px 18px;
+
+}
+#Aes{
+	background-color:#00796b;
+	border-radius: 50%;
+}
+#Xes{
+	background-color:#009688;
+	border-radius: 50%;
+}
+#Ges {
+	background-color:#689f38;
+	border-radius: 50%;
+}
+#Tes {
+	background-color: #8bc34a;
+	border-radius: 50%;
+}
+#Fes {
+	background-color:#689f38;
+	border-radius: 50%;
+}
+#Qes {
+	background-color:#009688;
+	border-radius: 50%;
+}
+#RMes {
+	background-color:#00796b;
+	border-radius: 50%;
+}
+#Apre{
+	background-color:#00796b;
+	border-radius: 50%;
+}
+#Xpre{
+	background-color:#009688;
+	border-radius: 50%;
+}
+#Gpre {
+	background-color:#689f38;
+	border-radius: 50%;
+}
+#Tpre {
+	background-color: #8bc34a;
+	border-radius: 50%;
+}
+#Fpre {
+	background-color:#689f38;
+	border-radius: 50%;
+}
+#Qpre {
+	background-color:#009688;
+	border-radius: 50%;
+}
+#RMpre {
+	background-color:#00796b;
+	border-radius: 50%;
+}
+.preII {
+	width: 10%;
+	height: 150px;
+	float: left;
+	margin:10px 18px;
+}
+#MBI{
+	background-color: #fbc02d;
+	border-radius: 50%;
+}
+#CI{
+	background-color: #9e7717;
+	border-radius: 50%;
+}
+#CII{
+	background-color: #ff5252;
+	border-radius: 50%;
+}
+#CIII{
+	background-color: #c2185b;
+	border-radius: 50%;
+}
+#ED{
+	background-color: #ff5252;
+	border-radius: 50%;
+}
+#EDD{
+	background-color: #9e7717;
+	border-radius: 50%;
+}
+#EII{
+	background-color: #fbc02d;
+	border-radius: 50%;
+}
+.icon-book {
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin:35px auto;
+	background-color: rgba(255,255,255,0.2);
+	padding: 20px;
+	border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+		-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+		-moz-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+		transition:box-shadow 0.4s;
+		-webkit-transition:box-shadow 0.4s;
+		-moz-transition:box-shadow 0.4s;
+		-ms-transition:box-shadow 0.4s;
+		-o-transition:box-shadow 0.4s;
+		
+}
+.texto {
+	text-align: center;
+	color: black;
+	padding-top: 30px;
+	opacity: 1;
+}
+.preI:hover{
+	height: 170px;
+	float: left;
+		-webkit-transition:all 0.4s ease;
+		-moz-transition:all 0.4s ease;
+		-ms-transition:all 0.4s ease;
+		-o-transition:all 0.4s ease;
+		transition:all 0.4s ease;
+}
+.preI:hover .icon-book{
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+		-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+		-moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+}
+.preI:hover .texto{
+	opacity: 1;
+}
+.preII:hover{
+	height: 170px;
+	float: left;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.preII:hover .icon-book{
+	box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+		-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+		-moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,0.6);
+	}
+	.preII:hover .texto{
+	opacity: 1;
+}
+/*Servicios*/
+.SE {
+	background: #0097a7;
+	margin: 20px 0px;
+	border-radius: 20px;
+}
+.SE p {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+}
+.AE {
+	background: #ffa000;
+	border-radius: 20px;
+	margin: 10px 0px;
+}
+.AE p{
+	padding: 10px;
+	font-size: 1.2em;
+	color:black;
+}
+
+.AP {
+	background: #ffa000;
+	border-radius: 20px;
+	margin: 10px 0px;
+
+}
+.AP p{
+	padding: 10px;
+	font-size: 1.2em;
+	color: black;
+}
+.AU {
+	background: #ffa000;
+	border-radius: 20px;
+	margin: 10px 0px;
+
+}
+.AU p{
+	padding: 10px;
+	font-size: 1.2em;
+	color: black;
+}
+.contacto {
+	background: #ffa000;
+	margin: 20px 0px;
+	border-radius: 10px;
+}
+.contacto p {
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	padding: 5px;
+}
+.horario {
+	background: #0288d1;
+	margin: 20px 0px;
+	border-radius: 10px;
+}
+.horario p{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+
+}
