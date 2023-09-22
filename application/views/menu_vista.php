@@ -38,7 +38,7 @@
             <div class="top__right col-md-12 col-sm-12">
                 <span><i class="fa fa-mobile-phone fa-1x"></i> 989 984 417 </span>
                 <span><i class="fa fa-whatsapp"></i>  989 984 417</span>
-                <span><i class="fa fa-envelope-o"><a href="http://localhost/gdelfos/Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff; font-size: 19px;"> informes@goteacher.pe</a></i></span>
+                <span><i class="fa fa-envelope-o"><a href="http://localhost/gdelfos/Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff; font-size: 19px;"> informes@goteacherperu.com</a></i></span>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li>

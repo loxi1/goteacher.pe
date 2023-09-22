@@ -21,10 +21,10 @@
                     <div class="footer-contact col-md-12"><p class="tam_letra"><b>CONT&AacuteCTANOS</b></p></div>
                 </div>
 				<div class="row">
-                    <div class="footer-contact col-xs-11">&nbsp;&nbsp;<i class="fa fa-envelope-o fa-1x"></i> <a href="<?php echo base_url(); ?>Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff;">informes@goteacher.pe</a></div>
+                    <div class="footer-contact col-xs-11">&nbsp;&nbsp;<i class="fa fa-envelope-o fa-1x"></i> <a href="<?php echo base_url(); ?>Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff;">informes@goteacherperu.com</a></div>
                 </div>
                 <div class="row">
-                    <div class="footer-contact col-xs-11">&nbsp;&nbsp;<i class="fa fa-link fa-1x"></i> <a href="<?php echo base_url(); ?>Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff;">www.goteacher.pe</a></div>
+                    <div class="footer-contact col-xs-11">&nbsp;&nbsp;<i class="fa fa-link fa-1x"></i> <a href="<?php echo base_url(); ?>Informes" style="text-decoration:none;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif !important; color:#fff;">www.goteacherperu.com</a></div>
                 </div>                
             </div>
 

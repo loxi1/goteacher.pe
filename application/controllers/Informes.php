@@ -107,9 +107,9 @@ class Informes extends CI_Controller {
             $config["mailtype"] = "html";
 
             $this->email->initialize($config);
-            $this->email->from('informes@goteacher.pe', 'Gabriel Orozco');
+            $this->email->from('informes@goteacherperu.com', 'Gabriel Orozco');
             $this->email->to('goteacherperu@gmail.com');
-            $this->email->cc('informes@goteacher.pe');
+            $this->email->cc('informes@goteacherperu.com');
             $this->email->bcc('gsorozcop@hotmail.com');
             $msn = $this->load->view('html_email', $dataPersona, true);
             $this->email->subject("INFORMES GO TEACHER");

@@ -56,7 +56,7 @@
                 <p class="text-center">
                     <span><i class="fa fa-mobile-phone fa-1x"></i> 989 984 417  </span>
                     <span><?php echo "WhatsApp:";?> 989 984 417 </span>
-                    <span><i class="fa fa-envelope-o"><a href="<?php echo base_url(); ?>Informes" class="infotxt"> informes@goteacher.pe</a></i></span>
+                    <span><i class="fa fa-envelope-o"><a href="<?php echo base_url(); ?>Informes" class="infotxt"> informes@goteacherperu.com</a></i></span>
                 </p>
             </div>
             <br/>

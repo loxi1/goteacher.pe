@@ -1,4 +1,4 @@
-Sitemap: http://www.goteacher.pe/sitemap.xml
+Sitemap: https://www.goteacherperu.com/sitemap.xml
 
 User-agent: Googlebot
 Disallow: /?*

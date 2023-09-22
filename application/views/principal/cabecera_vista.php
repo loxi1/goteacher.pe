@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head itemscope itemtype="http://schema.org/WebSite">
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
-        <link rel="canonical" href="http://www.goteacher.pe/" itemprop="url">
+        <link rel="canonical" href="https://www.goteacherperu.com/" itemprop="url">
           <!--Mobile Stuff-->
           <meta name="google-site-verification" content="EFqy1tkRxxQ1tlJauSbT-pnIvdZtGid_TBf0aeMC5UY" />
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,13 +28,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!--Twitter-->
           <meta name="twitter:card" content="mypicture">
           <meta name="twitter:site" content="@MyTwitter">
-          <meta name="twitter:title" content="goteacher">
+          <meta name="twitter:title" content="goteacherperu">
           <meta name="twitter:description" content="Resolvemos tus problemas">
           <meta name="twitter:image" content="<?php echo base_url(); ?>utilitarios/img/icon_social/linktoapicture.jpg">
           <!--Facebook-->
           <meta property="og:image" content="<?php echo base_url(); ?>utilitarios/img/icon_social/linktoapicture.jpg" itemprop="thumbnailUrl">
-          <meta property="og:title" content="goteacher">
-          <meta property="og:url" content="http://goteacher.pe/">
+          <meta property="og:title" content="goteacherperu">
+          <meta property="og:url" content="https://goteacherperu.com/">
           <meta property="og:site_name" content="MyFacebook">
 
 

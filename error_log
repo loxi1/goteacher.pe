@@ -2,4 +2,4 @@
 [12-Feb-2016 14:15:36 CST6CDT] PHP Parse error:  syntax error, unexpected 'true' (T_STRING) in /home/gdelfosc/public_html/application/controllers/Informes.php on line 64
 [12-Feb-2016 16:38:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'true' (T_STRING) in /home/gdelfosc/public_html/application/controllers/Informes.php on line 73
 [16-Feb-2016 17:12:39 CST6CDT] PHP Fatal error:  Call to undefined function gracias() in /home/gdelfosc/public_html/application/controllers/Informes.php on line 116
-[22-Feb-2017 18:38:58 UTC] PHP Parse error:  syntax error, unexpected 'Gabriel' (T_STRING) in /home/anibalcalletano/public_html/goteacher.pe/application/controllers/Informes.php on line 110
+[22-Feb-2017 18:38:58 UTC] PHP Parse error:  syntax error, unexpected 'Gabriel' (T_STRING) in /home/anibalcalletano/public_html/goteacherperu.com/application/controllers/Informes.php on line 110

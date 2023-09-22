@@ -32,7 +32,7 @@
                         <p><i class="fa fa-whatsapp"></i> : (+51) 989 984 417</p>
                         <p><i class="fa fa-phone"></i> : (+51) 989 984 417</p>
                         <p>&nbsp;</p>
-                        <p><i class="fa fa-envelope-o"></i> <abbr title="Email">Email</abbr>: <a href="mailto:ventas@syrproyectsac.com">informes@goteacher.pe</a></p>
+                        <p><i class="fa fa-envelope-o"></i> <abbr title="Email">Email</abbr>: <a href="mailto:ventas@syrproyectsac.com">informes@goteacherperu.com</a></p>
                         <p>&nbsp;</p>
                         <p><i class="fa fa-clock-o"></i> 
                             <abbr title="Hours">H</abbr>: Lunes - Domingo: 9:00 AM a 10:00 PM</p>
